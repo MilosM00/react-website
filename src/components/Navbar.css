@@ -1,0 +1,90 @@
+.nav{
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2d333b;
+    color: rgb(255, 255, 255);
+}
+
+.hamburger{
+    position: absolute;
+    top: 925px;
+    right: 20px;
+    width: 30px;
+    height: 19px;
+
+
+    font-size: 25px;
+    flex-direction: column;
+    display: none;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.bar{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo-nav{
+    color: rgb(255, 154, 68);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logo-nav-span{
+    color: rgb(255, 255, 255);
+}
+
+.nav-links{
+    display: flex;
+}
+
+li{
+    padding: 0 10px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.button-components{
+    background-color: rgb(255, 154, 68);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 750px) {
+    .nav{
+        padding: 20px;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links{
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+
+    li{
+        padding: 10px;
+    }
+
+    .nav-links.active{
+        display: flex;
+    }
+}
