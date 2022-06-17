@@ -1,6 +1,6 @@
 .background-image{
     position: relative;
-    background-image: url("../images/header.jpg");
+    background-image: url("../images/BeforeHeader.jpg");
     background-size: cover;
     height: 900px;
 }
