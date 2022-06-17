@@ -1,0 +1,50 @@
+.media-list{
+    font-family: 'Libre Baskerville', serif;
+    display: grid;
+    place-items: center;
+    background-color: #eaf0fc;
+    padding: 100px 0;
+}
+
+.inline-media-list{
+    display: flex;
+    gap: 100px;
+    padding: 0 50px;
+}
+
+.title-media-list{
+    font-size: 20px;
+}
+
+.info-media-list{
+    max-width: 400px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.list-media-list{
+    display: flex;
+    gap: 30px;
+    padding-top: 10px
+}
+
+.icon-list-media{
+    color: rgb(255, 154, 68);
+    font-size: 30px;
+}
+
+.p-list-media{
+    font-size: 15px;
+}
+
+.span-list-media{
+    color: rgb(65, 65, 65);
+}
+
+.img-list-media{
+    margin-top: 10px;
+    background-image: url("../images/MediaList.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+}
