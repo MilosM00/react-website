@@ -7,6 +7,7 @@
 }
 
 .overlay-hero{
+    padding: 0 50px;
     display: flex;
     gap: 50px;
 }
