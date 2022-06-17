@@ -1,3 +1,8 @@
+.navbar-section{
+    position: sticky;
+    top: 0;
+}
+
 .nav{
     font-family: 'Libre Baskerville', serif;
     padding: 20px 0;
@@ -9,11 +14,10 @@
 
 .hamburger{
     position: absolute;
-    top: 925px;
+    top: 25px;
     right: 20px;
     width: 30px;
-    height: 19px;
-
+    height: 17px;
 
     font-size: 25px;
     flex-direction: column;
@@ -25,6 +29,7 @@
 .bar{
     height: 3px;
     width: 100%;
+    border-radius: 5px;
     background-color: rgb(255, 255, 255);
 }
 
