@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import BeforeHeader from "./components/BeforeHeader";
 import SocialMedia from "./components/SocialMedia";
 import Hero from "./components/Hero";
+import MediaList from "./components/MediaList";
+import StandardPicture from "./components/StandardPicture";
 
 const App = () =>{
     return(
@@ -13,6 +15,8 @@ const App = () =>{
             <Navbar />
             <SocialMedia />
             <Hero />
+            <MediaList />
+            <StandardPicture />
             
         </div>
 
