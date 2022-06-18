@@ -1,0 +1,54 @@
+.about{
+    display: grid;
+    place-items: center;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #eaf0fc;
+    padding: 50px 0;
+}
+
+.title-about{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.short-info-about{
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+}
+
+.inline-about{
+    padding: 0 50px;
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.about-one,
+.about-two,
+.about-three{
+    display: grid;
+    place-items: center;
+}
+
+.icon-about{
+    display: grid;
+    place-items: center;
+    border: 2px solid rgb(255, 154, 68);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: rgb(255, 154, 68);
+    margin-bottom: 20px;
+}
+
+.icon-title-about{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.icon-info-about{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
