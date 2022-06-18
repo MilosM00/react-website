@@ -19,7 +19,7 @@ const MediaList = () =>{
                     </p>
 
                     <div className="list-media-list">
-                        <p className="icon-list-media"><i className="fa fa-gift"></i></p>
+                        <div className="icon-list-media"><i className="fa fa-gift"></i></div>
                         <p className="p-list-media">
                             List-based media object <br />
                             <span className="span-list-media">Cras sit amet nibh libero, in gravida nulla.</span>
@@ -27,7 +27,7 @@ const MediaList = () =>{
                     </div>
 
                     <div className="list-media-list">
-                        <p className="icon-list-media"><i className="fa fa-bell"></i></p>
+                        <div className="icon-list-media"><i className="fa fa-bell"></i></div>
                         <p className="p-list-media">
                             Another one <br />
                             <span className="span-list-media">Cras in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
@@ -35,7 +35,7 @@ const MediaList = () =>{
                     </div>
 
                     <div className="list-media-list">
-                        <p className="icon-list-media"><i className="fa fa-microphone"></i></p>
+                        <div className="icon-list-media"><i className="fa fa-microphone"></i></div>
                         <p className="p-list-media">
                             One more <br />
                             <span className="span-list-media">Nulla vel metus scelerisque ante sollicitudin. Cras purus odio.</span>
