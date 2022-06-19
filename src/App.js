@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import MediaList from "./components/MediaList";
 import StandardPicture from "./components/StandardPicture";
 import About from "./components/About";
+import Pricing from "./components/Pricing";
 
 const App = () =>{
     return(
@@ -19,6 +20,7 @@ const App = () =>{
             <MediaList />
             <StandardPicture />
             <About />
+            <Pricing />
             
         </div>
 
