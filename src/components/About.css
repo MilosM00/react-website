@@ -8,7 +8,18 @@
 
 .title-about{
     font-size: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.title-about::after{
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -10px;
+    left: 160px;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(255, 154, 68);
 }
 
 .short-info-about{
