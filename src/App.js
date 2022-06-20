@@ -7,6 +7,7 @@ import MediaList from "./components/MediaList";
 import StandardPicture from "./components/StandardPicture";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
+import Reviews from "./components/Reviews";
 
 const App = () =>{
     return(
@@ -21,6 +22,7 @@ const App = () =>{
             <StandardPicture />
             <About />
             <Pricing />
+            <Reviews />
             
         </div>
 
