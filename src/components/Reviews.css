@@ -1,0 +1,101 @@
+.reviews{
+    font-family: 'Libre Baskerville', serif;
+    display: grid;
+    place-items: center;
+    background-color: #eaf0fc;
+    padding: 50px 0;
+}
+
+.reviews-title{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.reviews-title::after{
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -10px;
+    left: 270px;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(255, 154, 68);
+}
+
+.reviews-short-info{
+    color: rgb(100, 100, 100);
+    font-size: 17px;
+    padding-bottom: 50px;
+}
+
+.image-reviews-one{
+    width: 70px;
+    height: 70px;
+    background-image: url("../images/t1.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.image-reviews-two{
+    width: 70px;
+    height: 70px;
+    background-image: url("../images/t2.jpg");
+    background-size: cover;
+    border-radius: 50%; 
+}
+
+.image-reviews-three{
+    width: 70px;
+    height: 70px;
+    background-image: url("../images/t3.jpg");
+    background-size: cover;
+    border-radius: 50%; 
+}
+
+.inline-reviews-testimonials{
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.testimonials-info{
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.testimonials-job-title{
+    font-weight: normal;
+    padding-top: 5px;
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+}
+
+.testimonials-message{
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(150, 150, 150);
+    width: 300px;
+    height: 120px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.testimonials-message::after{
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -10px;
+    left: 10px;
+
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid rgb(230, 230, 230);
+}
+
+.inline-reviews{
+    display: flex;
+    gap: 50px;
+}
