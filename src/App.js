@@ -8,6 +8,7 @@ import StandardPicture from "./components/StandardPicture";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
 import Reviews from "./components/Reviews";
+import Design from "./components/Design";
 
 const App = () =>{
     return(
@@ -23,6 +24,7 @@ const App = () =>{
             <About />
             <Pricing />
             <Reviews />
+            <Design />
             
         </div>
 
