@@ -1,0 +1,47 @@
+.design{
+    background-color: rgba(0,0,0,0.4);
+    font-family: 'Libre Baskerville', serif;
+    padding: 70px 0;
+    display: grid;
+    place-items: center;
+}
+
+.design-title{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.design-title::after{
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -10px;
+    left: 160px;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(255, 154, 68);
+}
+
+.design-info{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+}
+
+.design-button{
+    border: none;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.design-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0,0,0);
+    transition: 0.4s;
+}
