@@ -1,0 +1,82 @@
+.contact{
+    font-family: 'Libre Baskerville', serif;
+    padding: 50px 0;
+    background-color: #eaf0fc;
+    display: grid;
+    place-items: center;
+}
+
+.inline-contact{
+    display: flex;
+    gap: 20px;
+}
+
+.inputs-contact{
+    display: grid;
+}
+
+.title-contact{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.title-contact::after{
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -10px;
+    left: 70px;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(255, 154, 68);
+}
+
+.short-info-contact{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.input-contact,
+.input-contact-other{
+    padding: 10px;
+    font-size: 17px;
+    width: 490px;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.input-contact-other{
+    margin-top: 10px;
+}
+
+.input-contact:focus,
+.input-contact-other:focus{
+    outline-color: rgb(253, 130, 22);
+}
+
+.textarea-contact{
+    font-family: 'Libre Baskerville', serif;
+    padding: 10px;
+    font-size: 17px;
+    width: 490px;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.textarea-contact:focus{
+    outline-color: rgb(253, 130, 22);
+}
+
+.button-contact{
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    background-color:rgb(255, 154, 68);
+    border-radius: 5px;
+    width: 1000px;
+    cursor: pointer;
+}
+
+.button-contact:hover{
+    background-color:rgb(253, 130, 22);
+    transition: 0.4s;
+}
