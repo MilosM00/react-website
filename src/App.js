@@ -7,8 +7,8 @@ import MediaList from "./components/MediaList";
 import StandardPicture from "./components/StandardPicture";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
-import Reviews from "./components/Reviews";
-import Design from "./components/Design";
+import ImageOverlay from "./components/ImageOverlay";
+import Footer from "./components/Footer";
 
 const App = () =>{
     return(
@@ -23,8 +23,8 @@ const App = () =>{
             <StandardPicture />
             <About />
             <Pricing />
-            <Reviews />
-            <Design />
+            <ImageOverlay />
+            <Footer />
             
         </div>
 
