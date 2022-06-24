@@ -33,3 +33,16 @@
     padding-top: 20px;
     color: rgb(65, 65, 65);
 }
+
+
+@media (max-width: 999px) {
+    .overlay-standard-picture{
+        display: grid;
+        place-items: center;
+        gap: 50px
+    }
+
+    .title-standard-picture{
+        text-align: center;
+    }
+}
