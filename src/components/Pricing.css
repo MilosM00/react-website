@@ -134,3 +134,28 @@
     padding: 10px 0;
     width: 100%;
 }
+
+
+@media (max-width: 1089px) {
+    .overlay-pricing{
+        display: block;
+    }
+
+    .first-card{
+        margin-top: 0;
+    }
+
+    .first-card:hover{
+        margin-top: 0;
+    }
+
+    .second-card,
+    .third-card{
+        margin-top: 20px;
+    }
+
+    .second-card:hover,
+    .third-card:hover{
+        margin-top: 20px;
+    }
+}
