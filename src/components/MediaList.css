@@ -54,3 +54,28 @@
     width: 400px;
     height: 250px;
 }
+
+
+@media (max-width: 999px) {
+    .inline-media-list{
+        display: grid;
+        place-items: center;
+        gap: 50px;
+    }
+
+    .img-list-media{
+        margin-right: 0;
+    }
+
+    .title-media-list{
+        text-align: center;
+    }
+
+    .info-media-list{
+        text-align: center;
+    }
+
+    .p-list-media{
+        max-width: 330px;
+    }
+}
