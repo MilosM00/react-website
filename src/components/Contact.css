@@ -80,3 +80,19 @@
     background-color:rgb(253, 130, 22);
     transition: 0.4s;
 }
+
+
+@media (max-width: 999px) {
+    .inline-contact{
+        display: block;
+    }
+
+    .textarea-contact{
+        margin-top: 10px;
+        height: 150px;
+    }
+
+    .button-contact{
+        width: 490px;
+    }
+}
