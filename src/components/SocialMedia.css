@@ -35,3 +35,12 @@
     color: rgb(255, 154, 68);
     transition: 0.4s;
 }
+
+
+@media (max-width: 788px) {
+    .social-media-bar{
+        text-align: center;
+        display:grid;
+        place-items: center;
+    }
+}
