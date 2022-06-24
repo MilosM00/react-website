@@ -70,3 +70,25 @@
     cursor: pointer;
     font-size: 17px;
 }
+
+
+@media (max-width: 939px) {
+    .overlay-hero{
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+
+    .overlay-buttons-hero{
+        display: flex;
+    }
+
+    .title-hero{
+        text-align: center;
+    }
+
+    .info-hero,
+    .info-other-hero{
+        text-align: left;
+    }
+}
