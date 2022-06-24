@@ -99,3 +99,18 @@
     display: flex;
     gap: 50px;
 }
+
+
+@media (max-width: 999px) {
+    .inline-reviews{
+        display: block;
+    }
+
+    .image-reviews-one{
+        margin-bottom: 30px;
+    }
+
+    .image-reviews-two{
+        margin-bottom: 30px;
+    }
+}
