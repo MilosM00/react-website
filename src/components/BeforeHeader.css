@@ -107,3 +107,13 @@
     background-color: rgb(253, 130, 22);
     transition: 0.4s;
 }
+
+
+@media (max-width: 999px) {
+    .inline-before-header{
+        text-align: center;
+        display: grid;
+        place-items: center;
+        gap: 30px;
+    }
+}
