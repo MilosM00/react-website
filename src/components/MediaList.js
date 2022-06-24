@@ -11,7 +11,7 @@ const MediaList = () =>{
                 <div className="img-list-media"></div>
 
                 <div>
-                    <p className="title-media-list">Section with Media list</p>
+                    <p className="title-media-list">Section with Media List</p>
                     <p className="info-media-list">
                         Consectetur adipisicing elit. 
                         Quam odit odio et neque perferendis perspiciatis magnam hic ut facilis possimus!consectetur adipisicing elit. 
