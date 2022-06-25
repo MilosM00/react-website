@@ -46,3 +46,13 @@
         text-align: center;
     }
 }
+
+@media (max-width: 499px) {
+    .image-standard-picture{
+        width: 100%;
+    }
+
+    .overlay-standard-picture{
+        padding: 0 20px;
+    }
+}
