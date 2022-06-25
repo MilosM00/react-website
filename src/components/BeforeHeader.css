@@ -116,4 +116,18 @@
         place-items: center;
         gap: 30px;
     }
+
+    .overlay-free-trial{
+        width: 300px;
+    }
+}
+
+@media (max-width: 399px) {
+    .overlay-free-trial{
+        width: 250px;
+    }
+
+    .inline-before-header{
+        padding: 0 20px;
+    }
 }
