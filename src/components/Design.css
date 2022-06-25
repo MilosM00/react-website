@@ -45,3 +45,13 @@
     color: rgb(0,0,0);
     transition: 0.4s;
 }
+
+@media (max-width: 630px) {
+    .design-title{
+        font-size: 20px;
+    }
+
+    .design-title::after{
+        left: 95px;
+    }
+}
