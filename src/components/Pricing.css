@@ -159,3 +159,21 @@
         margin-top: 20px;
     }
 }
+
+@media (max-width: 369px) {
+    .first-card,
+    .second-card,
+    .third-card{
+        width: 300px;
+    }
+}
+
+@media (max-width: 630px) {
+    .pricing-title{
+        font-size: 20px;
+    }
+
+    .pricing-title::after{
+        left: 60px
+    }
+}
