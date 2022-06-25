@@ -96,3 +96,22 @@
         width: 490px;
     }
 }
+
+@media (max-width: 630px) {
+    .title-contact{
+        font-size: 20px;
+    }
+
+    .title-contact::after{
+        left: 35px
+    }
+}
+
+@media (max-width: 499px) {
+    .textarea-contact,
+    .button-contact,
+    .input-contact,
+    .input-contact-other{
+        width: 300px;
+    }
+}
