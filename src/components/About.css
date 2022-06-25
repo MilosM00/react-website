@@ -54,6 +54,7 @@
 }
 
 .icon-title-about{
+    text-align: center;
     font-size: 22px;
     padding-bottom: 20px;
 }
@@ -69,5 +70,15 @@
     .inline-about{
         display: grid;
         place-items: center;
+    }
+}
+
+@media (max-width: 630px) {
+    .title-about{
+        font-size: 20px;
+    }
+
+    .title-about::after{
+        left: 90px;
     }
 }
