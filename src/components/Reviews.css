@@ -114,3 +114,24 @@
         margin-bottom: 30px;
     }
 }
+
+@media (max-width: 630px) {
+    .reviews-title{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .reviews-title::after{
+        left: 170px
+    }
+}
+
+@media (max-width: 420px) {
+    .reviews-title{
+        font-size: 17px;
+    }
+
+    .reviews-title::after{
+        left: 140px;
+    }
+}
