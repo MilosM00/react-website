@@ -29,6 +29,7 @@
 }
 
 .icon-list-media{
+    align-self: center;
     display: grid;
     place-items: center;
     width: 40px;
@@ -78,4 +79,20 @@
     .p-list-media{
         max-width: 330px;
     }
+}
+
+@media (max-width: 499px) {
+    .img-list-media{
+        width: 100%;
+    }
+
+    .inline-media-list{
+        padding: 0 20px;
+    }
+
+    .list-media-list{
+        width: 100%;
+        gap: 10px;
+    }
+
 }
