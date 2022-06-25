@@ -22,11 +22,11 @@ const BeforeHeader = () =>{
                     <div className="overlay-free-trial">
                         <p className="try-free">Try your <span className="try-free-span">Free</span> trial today.</p>
 
-                        <input type="text" className="input-before-header" placeholder="Name..." />
+                        <input type="text" className="input-before-header" placeholder="Name" />
 
-                        <input type="text" className="input-before-header" placeholder="Email..." />
+                        <input type="text" className="input-before-header" placeholder="Email" />
 
-                        <input type="password" className="input-before-header" placeholder="Password..." />
+                        <input type="password" className="input-before-header" placeholder="Password" />
 
                         <button className="button-get-started">Get Started</button>
 
