@@ -3,7 +3,8 @@
     place-items: center;
     font-family: 'Libre Baskerville', serif;
     background-color: #eaf0fc;
-    padding: 50px 0;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .title-about{
