@@ -1,6 +1,7 @@
 .contact{
     font-family: 'Libre Baskerville', serif;
-    padding: 50px 0;
+    padding-top: 80px;
+    padding-bottom: 50px;
     background-color: #eaf0fc;
     display: grid;
     place-items: center;
