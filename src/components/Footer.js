@@ -14,7 +14,7 @@ const Footer = () =>{
             </p>
 
             <p className="thanks">
-                Only for learning and portfolio purposes, more info <a className="footer-link" href="https://github.com/MilosM00/rubic-website-react" target="_blank" rel="noreferrer">here</a>
+                Only for learning and <a className="footer-link" href="https://github.com/MilosM00/rubic-website-react" target="_blank" rel="noreferrer">portfolio</a> purposes
             </p>
 
             <ul className="footer-links">
