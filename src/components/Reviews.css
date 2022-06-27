@@ -26,6 +26,7 @@
 .reviews-short-info{
     color: rgb(100, 100, 100);
     font-size: 17px;
+    padding: 0 5px;
     padding-bottom: 50px;
 }
 
@@ -123,16 +124,16 @@
     }
 
     .reviews-title::after{
-        left: 170px
+        left: 160px
     }
 }
 
 @media (max-width: 420px) {
     .reviews-title{
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .reviews-title::after{
-        left: 140px;
+        left: 110px;
     }
 }
