@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rubic-website-react/static/css/main.30709195.css",
+    "main.js": "/rubic-website-react/static/js/main.98944a70.js",
+    "static/media/Design.jpg": "/rubic-website-react/static/media/Design.b9ea7da13039df5c94cb.jpg",
+    "static/media/BeforeHeader.jpg": "/rubic-website-react/static/media/BeforeHeader.de8206adcb9d68845ab4.jpg",
+    "static/media/StandardPicture.jpg": "/rubic-website-react/static/media/StandardPicture.422af47425bb51c7a2c9.jpg",
+    "static/media/MediaList.jpg": "/rubic-website-react/static/media/MediaList.913d66a52b2076dad7ce.jpg",
+    "static/media/t3.jpg": "/rubic-website-react/static/media/t3.0297a203a5949b8de16f.jpg",
+    "static/media/t1.jpg": "/rubic-website-react/static/media/t1.36d64dc766a435ae07b9.jpg",
+    "static/media/t2.jpg": "/rubic-website-react/static/media/t2.3c40fe90efdd15333ffa.jpg",
+    "index.html": "/rubic-website-react/index.html",
+    "main.30709195.css.map": "/rubic-website-react/static/css/main.30709195.css.map",
+    "main.98944a70.js.map": "/rubic-website-react/static/js/main.98944a70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30709195.css",
+    "static/js/main.98944a70.js"
+  ]
+}
